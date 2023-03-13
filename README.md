@@ -1,2 +1,7 @@
 # statext
-State &lt; - > Context pattern implementation
+Very scuffed State &lt; - > Context pattern implementation
+
+
+### Build examples
+
+`mkdir build; cd build; cmake -DENABLE_EXAMPLES=1 ..; examples/statext_example;` 
