@@ -26,4 +26,8 @@ void Context::change_state(std::shared_ptr<State> new_state) noexcept
     }
 }
 
+bool Context::has_valid_state() const noexcept{
+    return (m_state != nullptr);
+}
+
 } // namespace statext

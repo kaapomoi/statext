@@ -16,6 +16,8 @@ public:
 
     void change_state(std::shared_ptr<State> new_state) noexcept;
 
+    bool has_valid_state() const noexcept;
+
 private:
     std::shared_ptr<State> m_state;
 };
